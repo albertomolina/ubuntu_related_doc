@@ -10,7 +10,7 @@ not so common like in Ubuntu and they're presented here as
 
 ## Canonical's ecosystem
 
-1. [snap](https://snapcraft.io/)
+1. [snap](snap/snap.md)
 1. [lxd](https://linuxcontainers.org/)
 1. [juju](https://juju.is/)
 1. [MaaS](https://maas.io/)
