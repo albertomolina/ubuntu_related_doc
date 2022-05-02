@@ -14,8 +14,9 @@ slower than those provided by the package management system. Snap
 packages are not a good general solution to provide all the software
 of a system but can be a good option for specific cases.
 
-Another well-known utility for package management in linux is
-[Flatpak](https://www.flatpak.org/), formerly known as xdg-app.
+Another well-known utility for dependecy free package management in
+linux is [Flatpak](https://www.flatpak.org/), formerly known as
+xdg-app.
 
 ## Snap components
 
@@ -26,15 +27,16 @@ Another well-known utility for package management in linux is
 * [Snap Store](https://snapcraft.io/store) provides a place to upload
   snaps, and for users to browse and install
 
-The project is called snapcraft, is supported by Canonical and the
-repositories are available on [Github](https://github.com/snapcore/)
+The project is called [snapcraft](https://snapcraft.io/), is supported
+by Canonical and the repositories are available on
+[Github](https://github.com/snapcore/)
 
 ## Snapd debian package
 
 Snap must be initially installed as a debian package with the package
 management system. The package is called snapd and it includes both
 the daemon that and the snap CLI. Once installed snap can be updated
-by snap self with `snap refresh snapd`
+by snap itself with `snap refresh snapd`
 
 ## Using snap
 
@@ -61,8 +63,9 @@ photogimp               2.10.20  pedro.ermarinho  -      Patch para o GIMP
 ```
 
 Snaps binaries are installed on the directory `/snaps/bin/`. The
-binaries installed in that directory can be invoked using full path or
-adding the directory '/snaps/bin'  to the PATH environment variable.
+binaries installed in that directory can be invoked using the full
+path or adding the directory '/snaps/bin' to the PATH environment
+variable.
 
 ```
 echo $PATH
