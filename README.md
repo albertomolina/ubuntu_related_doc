@@ -3,7 +3,7 @@
 The aim to create this repository is to include some relevant issues
 found when working with Ubuntu coming from Debian and to write down
 some notes about it. This includes mainly interaction with Canonical
-supported applications snapd, lxd, juju, maas, etc. Those software
+supported applications: snapd, lxd, juju, maas, etc. Those software
 applications can be used in Debian and other linux distros, but it's
 not so common like in Ubuntu and they're presented here as
 "Canonical's ecosystem".
